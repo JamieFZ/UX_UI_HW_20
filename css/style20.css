@@ -1,0 +1,42 @@
+.jumbotron{
+    background-image: url(../images/Abbey_mockup.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    height: calc(100vh - 25px);
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+}
+.jumboCopy{
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: black;
+    text-align: center;
+}
+.jumboCopy a{
+    background-color: #9746B5;
+    border-color: #9746B5;
+}
+.textContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*align-items: center;*/
+    letter-spacing: 0.035em;
+    width: 70%;
+    margin: 0 auto;
+}
+.contentSum h1{
+    padding: 30px 0;
+    margin-top: 10px;
+}
+.projectOverview h2{
+    padding: 40px 0;
+    margin-top: 40px;
+    color: darkgrey;
+}
+.solution{
+    margin-top: 30px;
+}
