@@ -9,7 +9,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-- Hero -->
+    <!-- nav -->
     <nav class="navbar navbar-light bg-light">
         <a class="navbar-brand" href="#">
         <img src="./images/LOGO.png" width="78" height="75" class="d-inline-block align-top" alt="">
@@ -40,32 +40,48 @@
             </li>
         </ul>
     </nav>
-    <!-- Header -->
+    <!-- hero -->
     <div class="jumbotron abbeyBackground">
         <div class="jumboCopy">
             <h1 class="display-4">Abbey Cat Adoptions Website Redesign </h1>
-            <!-- <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-            <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> -->
-        </div>    
+         </div>    
     </div>
     <!-- Executive Summary -->
-    <section class="contentSum textContent">
-        <div>
-            <h1>Executive Summary</h1>
+    <section class="textContent Flexbox">
+        <!-- leftSide -->
+        <div class="leftFlexbox">
+            <div class="boxSpace">
+                <h4>Project Original Website:</h4>
+                <a href="https://abbeycats.org" >Abbeycats.org</a>
+            </div>
+            <div class="boxSpace">
+                <h4>Project Description</h4>
+                <p>"Redesign of a website that helps abandoned cats find forever homes."</p>
+            </div>
+            <div class="boxSpace">
+                <h4>Timeline</h4>
+                <p>August 24th ~ September 19th, 2020</p>
+            </div>
         </div>
-        <div>
-            Lorem Ipsum is simply dummy text of the printing and typesetting 
-            industry. Lorem Ipsum has been the industry's standard dummy text ever 
-            since the 1500s, when an unknown printer took a galley of type and 
-            scrambled it to make a type specimen book. It has survived not only five 
-            centuries, but also the leap into electronic typesetting, remaining 
-            essentially unchanged. It was popularised in the 1960s with the release 
-            of Letraset sheets containing Lorem Ipsum passages, and more recently  
-            with desktop publishing software like Aldus PageMaker including 
-            versions of Lorem Ipsum.
+        <!-- leftSide End -->
+        <!-- rightSide -->
+        <div class="rightFlexbox">
+            <div class="boxSpace">
+                <h4>Team Members</h4>
+                <text>Fangyuan Zhao (me), Anastasia Mikhailitchenko, Lisa Elaschuk</text>
+            </div>
+            <div class="boxSpace">
+                <h4>Role</h4>
+                <text>User Research, Ideation, Wireframe & Prototype, Visual design  </text>
+            </div>
+            <div class="boxSpace">
+                <h4>Tools Used</h4>
+                <text>Figma, Miro, InVision, Trello Board, Private Slack Channel, Google Drive, Google Slides, Google Form, OptimalSort, Zoom</text>
+            </div>
         </div>
+        <!-- rightSide End -->
     </section>
+
     <!-- Project Overview -->
     <section class="projectOverview">
         <div class="problemStatement textContent">
@@ -87,7 +103,232 @@
                 We believe that users require a more organized and accessible way of finding out about the cats at Abbey Cat Adoptions. We might help if we streamlined the process of finding a cat and improving the application process for adoption.
                 By reorganizing information and making the calls to action on the website, such as adoption or making donations, clear and accessible will not only allow our users to support Abbey Cat Adoptions but also help them adopt a cat faster.</p>
         </div>
+        <div class="displayImages">
+            <img id="HPredesign" src="./images/homepageRedesign.png" alt="">
+        </div>
     </section>
-    
+
+    <!-- Research -->
+    <section class="researchSection">
+        <div class="textContent research">
+            <h3>Research</h3>
+            <p>Research methodology consisted of interviews with 5 people, 
+                followed by a Google Docs online survey of 33 respondents 
+                to learn about how people would approach the cat adoption
+                process. We explained to respondents that we are trying to 
+                improve the design of an existing website and we’d like to 
+                understand some of the needs and pain points, wants and desires
+                of people who are interested in cat adoption and animal welfare in general.
+            </p>
+            <p>
+                We also conducted a competitor analysis of three other animal rescue agencies to compare
+                features, strengths and weaknesses of other websites.
+            </p>
+            <p>
+                In the interviews, we showed respondents the <a href="www.abbeycats.org">www.abbeycats.org</a> website to get their initial impression of the organization. In the online survey we included a screenshot of the website so respondents wouldn’t need to navigate away from the survey to see the page.
+            </p>
+        </div>
+        <div class="textContent userFeedback">
+            <h4>User Feedback on Homepage</h4>
+            <p>“Mission statement should be brief and closer to the top”</p>
+            <p>“It's too busy, too much print. Needs a soft first screen with easily managed flow to other screens.”</p>
+            <p>“Too much text. I would prefer more images”</p>
+            <p>“Looks a bit outdated”</p>
+        </div>
+        <div class="textContent Flexbox">
+            <div class="leftFlexbox">
+                <h4>Key findings include</h4>
+                <ul>
+                    <li>Majority would consider adopting from a cat rescue agency</li>
+                    <li>Many would support with donations or sharing on social media</li>
+                </ul>
+            </div>
+            <div class="rightFlexbox">
+                <h4>Major factors influencing adoption decision</h4>
+                <ul>
+                    <li>Reputation of organization</li>
+                    <li>Health of animal</li>
+                    <li>Easy application process</li>
+                </ul>
+            </div>
+        </div>
+        <div class="textContent survey Flexbox">
+            <img src="./images/survey1.png" alt="survey 1" width="50%">
+            <img src="./images/survey2.png" alt="survey 2" width="50%">
+        </div>
+    </section>
+    <!-- This is User persona, User Flow + Storyboard -->
+    <section>
+        <div class="textContent">
+            <h3>User Persona</h3>
+            <img src="./images/UserPersonaAbbey.png" alt="" width="50%">
+        </div>
+        <div class="textContent userFlow Storyboard">
+            <h3>User FLow + Storyboard</h3>
+            <p>We reached out to the organization but they were too busy to talk to us 
+                so we determine their pain points and needs from their website:
+            </p>
+            <ul>
+                <li>Prioritizing requests, high volume of people asking for information</li>
+                <li>Getting volunteers</li>
+                <li>Keeping website up to date with new cats</li>
+                <li>Covering costs of keeping the website up and well managed</li>
+                <li>Covering costs of generally running the organization</li>
+                <li>Managing to keep up with the amount of cats that are given up</li>
+            </ul>
+            <p>They need an efficient way to find volunteers and funding to keep their 
+                program running. They need a website that will function to maximize donations, 
+                streamline the adoption/fostering process, and provide information to potential 
+                clients and volunteers.</p>
+            <div class="Flexbox">
+                <div class="leftFlexbox features">
+                    <h4>Features</h4>
+                    <ul>
+                        <li>Donation button higher on the page to make it more prominent</li>
+                        <li>'About Us' info more visible to emphasize charitable status</li>
+                        <li>Clearly laid out navigation bar</li>
+                        <li>Filter for cats</li>
+                        <li>Streamlined application process</li>
+                    </ul>
+                </div>
+                <div class="rightFlexbox">
+                <img src="./images/FeaturePrioritization.png" alt="" width="100%">
+                </div>
+            </div>
+            <!-- user flow + storyboard-->
+            <div class="UFSB">
+                <div class="Uflow">
+                    <h4>User Flow</h4>
+                    <img src="./images/userflow.png" alt="" width="100%">
+                </div>
+                <div class="Sboard">
+                    <h4>Storyboard</h4>
+                    <img src="./images/Storyboard.png" alt="" width="100%">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- UI Architecture Site Map and Card Sort -->
+    <section class="AI">
+        <div class="textContent">
+            <h3>UI Architecture Site Map and Card Sort</h3>
+            <p>We did a closed card sort using <em>Optimal Sort</em> for insights on how participants group information.</p>
+            <p>We reorganized the results and came up with this new Site Map.</p>
+            <img src="./images/SiteMap.png" alt="" width="100%">
+        </div>
+    </section>
+    <!-- Design inspiration, sketches and style guide -->
+    <section class="UIdesign">
+        <!--moodboard-->
+        <div class="textContent">
+            <h3>Design inspiration, sketches and style guide</h3>
+            <p>We want to convey an image of professionalism while maintaining the playfulness and cuteness of cats in our choice of images, colours and typography for the Abbey Cats website.
+            </p>
+            <h4>Moodboard</h4>
+            <p>This is our <a href="https://anamikhail687495.invisionapp.com/board/Abbeycatsorg-ckd1shq2809hx18qtzcmszn7u">Moodboard</a>. Click to see full moodboard. </p>           
+        </div>
+        <!--processes-->
+        <div class="textContent LGPB">
+            <h4>Sketches of logo, progress bar ideas</h4>
+            <img src="./images/LogoProgress.png" alt="" width="100%">
+            <img src="./images/ProgressBar.png" alt="" width="100%">
+        </div>
+        <!--moodboard-->
+        <div class="textContent">
+            <div class="Flexbox MIcontainer">
+                <div class="leftFlexbox MI">
+                    <h4>Micro-Interaction</h4>
+                </div>
+                <div class="rightFlexbox">
+                    <img src="./images/microinteraction.gif" alt="" > 
+                </div>              
+            </div>
+        </div>
+        <!--style guide-->
+        <div class="textContent">
+            <h4>Style Guide</h4>
+            <img src="./images/StyleGuide.png" alt="" width="100%">
+        </div>
+    </section>
+    <!--Before & After -->
+    <section>
+        <div class="textContent">
+            <h3>Major Before & After</h3>
+        </div>
+        <div class="textContent">
+            <h4>1. Homepage Redesign</h4>
+            <p>To make the major features more approachable and accessible: </p>
+            <p>We moved navigation area to the top and reorganized from our site map results. <br>
+            We also enlarge four major call to action buttons and place it in the center. </p>
+        </div>
+        <div><img src="./images/homepageRedesign.png" alt="" width="100%"></div>
+
+        <div class="textContent">
+            <h4>Application Redesign</h4>
+            <p>From the original website, the main pain point for the application page is that the content is overwhelming and it could cause their potential customers to give up in this step.</p>
+            <p>We decided to filter out some unusual questions and reorganized the rest into four separate pages. A progress bar that indecates where the user is really helps users to reduce uncertainty. As well, we added the Micro-interaction design to make the application process stress-free.</p>
+        </div>
+        <div><img src="./images/ApplicationRedesign.png" alt="" width="100%"></div>
+    </section>
+    <!-- Usability Testing -->
+    <section>
+        <div class="textContent">
+            <h3>Usability Testing</h3>
+            <p>User testing was done to see if the user can access the available cats page and narrow down
+                results using a filter. Next step was for the user to go through the adoption process for a cat by
+                filling out a form and reaching the confirmation page. After the confirmation page, users were
+                asked to return to the home page.</p>
+            <p>Based on user testing, we broke up the form into single columns on multiple pages, instead of
+                two columns. We modified the progress bar on the multi-page form to improve visibility of
+                system status and let applicants know how far they are in the process. We also added colour
+                to text fields when completed, and a ‘peeking cat micro-animation’ on each page to add
+                delight to an otherwise tedious application process.</p>
+            <p> We also modified the way the cat’s information appeared on its page, included a photo
+                gallery and a share to social media button.</p>
+            <h4>Iterations from low-fi prototype to hi-fi prototype after user testing</h4>  
+        </div>
+        <div class="iteration">
+            <img src="./images/ApplicationLayout.png" alt="" width="100%">
+            <img src="./images/Infopage.png" alt="" width="100%">
+        </div>
+    </section>
+    <!-- Final High fidelity UI Prototype -->
+    <section>
+        <div class="textContent">
+            <h3>Final High fidelity UI Prototype</h3>
+            <p> Click the links below each image for clickable mobile and desktop prototypes.</p>
+        </div>
+        <div class="textContent Flexbox">
+            <div class="leftFlexbox iphone">
+                <img src="./images/HiFimockup.png" alt="" width="50%">
+                <a href="#">Click here for final mobile prototype</a>
+            </div>
+            <div class="rightFlexbox macbook">
+                <img src="./images/MacBook-ProMockup.png" alt="" width="100%">
+                <a href="#">Click here for final desktop prototype</a>
+            </div>           
+        </div>
+    </section>
+    <!-- Final Summary -->
+    <section>
+        <div class="textContent">
+            <h3>Summary</h3>
+            <p>Site visitors who are animal lovers looking to adopt a cat may also be potential volunteers or donors to the cause. Increasing engagement through sending newsletters is an audience retention strategy that may strengthen the relationship with the organization and prompt site visitors to provide support.</p>
+            <p>A quick and easy process for users to make donations, and additional payment options will increase the likelihood of receiving more financial support from the public.</p>
+            <p>The following features are under consideration to improve the overall user experience:</p>
+            <ul>
+                <li>Newsletter/mailing list sign-up button for more engagement with site visitors</li>
+                <li>Receive notifications about new available cats</li>
+                <li>Add FAQs section</li>
+                <li>Make it easier to donate with more options (currently only PayPal/CanadaHelps)</li>
+                <li>Eg. Add E-transfer, Apple Pay</li>
+                <li>Option to save partially completed form and finish later</li>
+                <li>Search function on the website</li>
+                <li>Chatbot for help questions</li>
+                <li>Matchmaker tool to find ideal cat</li>
+            </ul>
+        </div>
+    </section>
+
 </body>
 </html>
