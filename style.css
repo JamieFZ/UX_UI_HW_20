@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* This is My Skills Section*/
+.flexContainer{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;  
+    margin-bottom: 30px;
+}
+.flexContainer div{
+    width: 33%;
+    margin: 0px;
+    padding: 10px;
+}
+.flexContainer img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.mySkills{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgb(238, 126, 175) 0%, rgb(88, 155, 231) 100%);
+
+}
+.mySkills h1{
+    padding: 35px;
+}
+.mySkills h3{
+    margin: 10px 0 10px 0;
+}
+/* This is My Work Section*/
+.workGrid{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    gap: 0px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.myWork{
+    display: flex;
+    flex-direction: column;
+    
+}
+.workGrid img{
+    max-width: 100%;
+    max-height: 100%;
+    /*object-fit: cover;*/
+}
+.content18{
+    margin:10px 20px 0 20px;
+
+}
+.logo p{
+    font-size: 20px;
+}
+
+.myWork h1{
+    align-self: center;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+button{
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 16px;
+}
+h4{
+    margin-bottom: 12px;
+    font-size: 30px;
+}
+.content18 p{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+footer{
+    margin-top: 40px;
+}
+footer a{
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 600px){
+    .text{
+        display: none;
+    }
+    .flexContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;  
+    }
+    .flexContainer div{
+        width: 80%;
+        margin: 0px auto;
+        padding: 10px;
+        
+    }
+    .workGrid{
+        width: 90%;
+        margin: 0 5%;
+        display: grid;
+        /*gap: 0px;*/
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        /*grid-template-areas: 
+            "Tippo"
+            "NutritionU"
+            "Abbey"
+            ;*/
+    }
+    .tippotext{
+        order: 2;
+    }
+    .tippoimg{
+        order: 1;
+    }
+    .NUtext{
+        order: 4;
+    }
+    .NUimg{
+        order: 3;
+    }
+    .abbeytext{
+        order: 6;
+    }
+    .abbeyimg{
+        order: 5;
+    }
+    
+    .content18{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    button{
+        width: 60%;
+        margin-left:auto;
+        margin-right: 0; /*must use with defined width*/
+        margin: 20px auto ;
+    }
+
+}
