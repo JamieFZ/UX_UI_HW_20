@@ -1,6 +1,13 @@
 .navbar {
     margin: 0px;
 }
+h3{
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+h4{
+    padding: 25px 0 0 0;
+}
 .jumbotron{
     background-image: url(../images/NewAbbey.png);
     background-size: cover;
@@ -60,29 +67,31 @@
     width: 100%;
     margin-top: 40px;
 }
+.userFeedback h4{
+    padding-top: 30px;
+}
+.UPersona{
+    display: flex;
+    justify-content: center;
+}
 .features{
     margin: auto 0;
-}
-.Uflow h4{
-    padding: 20px 0;
-}
-.Sboard h4{
-    padding: 30px 0 0 0;
 }
 .LGPB img{
     margin-top: 30px;
 }
-h3{
-    padding-top: 50px;
-}
-.UIdesign h4{
-    padding-top: 25px;
-}
+
 .MIcontainer{
     margin: 0 !important;
 }
 .MI{
     margin: auto 0;
+}
+.application{
+    padding: 60px 0 25px 0;
+}
+.iterationh4 h4{
+    padding-bottom: 25px;
 }
 .iphone{
     display: flex;
@@ -95,4 +104,7 @@ h3{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.endSummary{
+    padding-top: 30px;
 }
